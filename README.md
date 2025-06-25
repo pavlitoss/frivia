@@ -1,16 +1,44 @@
-# frivia
+# 🧠 Frivia — A Fun General Knowledge Quiz App
 
-A new Flutter project.
+**Frivia** is a simple and entertaining quiz app built with Flutter that lets you test your **general knowledge** with **Yes/No trivia questions**. Choose your **difficulty level** and see how many you can get right!
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🎯 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🤓 General knowledge trivia
+- ✅ Yes/No answer format
+- 📈 Multiple difficulty levels: Easy, Medium, Hard
+- 🔄 Randomized questions for every session
+- 🌐 Uses a public trivia API (Open Trivia DB)
+- 📱 Clean, responsive Flutter UI
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+
+- **Flutter** — Cross-platform mobile development
+- **Dart** — Main programming language
+- **HTTP** — To fetch trivia data from the API
+- **Open Trivia DB API** — Source for trivia questions
+- **Provider / setState** — For state management
+
+---
+
+## 🚀 Getting Started
+
+### ✅ Prerequisites
+
+- Flutter SDK
+- Emulator or physical device
+- Internet connection (for fetching trivia)
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/pavlitoss/frivia.git
+cd frivia
+flutter pub get
+flutter run
